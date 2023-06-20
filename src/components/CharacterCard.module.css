@@ -1,0 +1,28 @@
+.card {
+    padding: 2rem;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: background-color .3s, transform .3s;
+}
+
+.card:hover {
+    background-color: var(--blue);
+    transform: scaleX(.9);
+}
+
+
+.image {
+    width: 90%;
+    padding-bottom: 100%;
+    margin-bottom: 2rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.name {
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.6rem;
+}

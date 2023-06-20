@@ -1,0 +1,35 @@
+.container {
+    max-width: 40rem;
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--card-color);
+}
+
+
+.image {
+    width: 90%;
+    margin-top: 6rem;
+}
+
+.header {
+
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.name {
+    font-family: 'Barlow', sans-serif;
+    font-size: 3rem;
+}
+
+.info {
+    display: flex;
+    margin: 2rem;
+    font-family: 'Barlow', sans-serif;
+    font-size: 1.3rem;
+
+}

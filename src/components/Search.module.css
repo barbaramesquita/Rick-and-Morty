@@ -1,0 +1,18 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-family: 'Barlow', sans-serif;
+}
+
+.total {
+    font-size: 1.25rem;
+}
+
+.form input {
+    background: transparent;
+    border: 2px solid var(--color);
+    font-family: 'Barlow', sans-serif;
+    padding: .25rem .5rem;
+}
